@@ -4,6 +4,7 @@
 Console.Write("Введите целое число: ");
 int user_N = System.Convert.ToInt32(Console.ReadLine());
 int[] num_arr = new int[user_N];
+
 for(int i = 0; i < num_arr.Length; i++)
 {
   num_arr[i] = System.Convert.ToInt32(Math.Pow((i+1),3));
