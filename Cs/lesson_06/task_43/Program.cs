@@ -8,7 +8,8 @@ Console.WriteLine($"{String.Join(", ", myArr)}");
 
 //=====================methods===================
 
-int[] randArr(){
+int[] randArr()
+{
   int size = new Random().Next(6, 20);
   int[] res = new int[size];
   for (int i = 0; i < size; i++)
@@ -18,7 +19,8 @@ int[] randArr(){
   return res;
 }
 
-void myFunc(int[] arr){
+void myFunc(int[] arr)
+{
   for (int i = 0; i < arr.Length; i++)
   {
     for (int j = 0; j < arr.Length - 1; j++)
