@@ -33,7 +33,7 @@ int[] multiplyElem(int[] arr){
     res[j] = arr[j] * arr[arr.Length - 1 - j];
   }
 
-  if(res[res.Length - 1] == 0){
+  if(arr.Length % 2 == 1){
     res[res.Length - 1] = arr[arr.Length / 2];
   }
 
