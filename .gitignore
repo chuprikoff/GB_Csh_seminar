@@ -398,3 +398,6 @@ omnisharp*
 
 # JetBrains Rider
 *.sln.iml
+
+#My files
+/tests
